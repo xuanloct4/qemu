@@ -1,0 +1,2 @@
+#define QEMU_PKGVERSION "v5.2.0-721-ge551455f1e"
+#define QEMU_FULL_VERSION "5.2.50 (v5.2.0-721-ge551455f1e)"

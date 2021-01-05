@@ -1,0 +1,1 @@
+/Users/loctv/Documents/QEMU/qemu/contrib/plugins/Makefile

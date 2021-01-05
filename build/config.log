@@ -1,0 +1,1084 @@
+# QEMU configure log Tue Jan  5 05:17:27 +07 2021
+# Configured with: '../configure' '--smbd=/usr/local/sbin/samba-dot-org-smbd' '--prefix=/usr/local/qemu'
+#
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 141 173 557 583 0
+cc -std=gnu99 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __linux__ not defined
+#error __linux__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 141 173 557 585 0
+cc -std=gnu99 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: _WIN32 not defined
+#error _WIN32 not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 141 173 557 587 0
+cc -std=gnu99 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __OpenBSD__ not defined
+#error __OpenBSD__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 141 173 557 589 0
+cc -std=gnu99 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __sun__ not defined
+#error __sun__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 141 173 557 591 0
+cc -std=gnu99 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __HAIKU__ not defined
+#error __HAIKU__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 141 173 557 593 0
+cc -std=gnu99 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __FreeBSD__ not defined
+#error __FreeBSD__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 141 173 557 595 0
+cc -std=gnu99 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __FreeBSD_kernel__ not defined
+#error __FreeBSD_kernel__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 141 173 557 597 0
+cc -std=gnu99 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __DragonFly__ not defined
+#error __DragonFly__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 141 173 557 599 0
+cc -std=gnu99 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:2:2: error: __NetBSD__ not defined
+#error __NetBSD__ not defined
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_object check_define main
+lines: 141 173 557 601 0
+cc -std=gnu99 -Wall -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_object main
+lines: 141 173 1955 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 1960 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2004 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Werror -Wold-style-declaration -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+error: unknown warning option '-Wold-style-declaration'; did you mean '-Wout-of-line-declaration'? [-Werror,-Wunknown-warning-option]
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Werror -Wold-style-definition -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Werror -Wtype-limits -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Werror -Wformat-security -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Werror -Wformat-y2k -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Werror -Winit-self -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Werror -Wignored-qualifiers -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Werror -Wempty-body -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Werror -Wnested-externs -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Werror -Wendif-labels -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Werror -Wexpansion-to-defined -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Werror -Wimplicit-fallthrough=2 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+error: unknown warning option '-Wimplicit-fallthrough=2'; did you mean '-Wimplicit-fallthrough'? [-Werror,-Wunknown-warning-option]
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Werror -Winitializer-overrides -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Werror -Wmissing-include-dirs -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Werror -Wshift-negative-value -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Werror -Wstring-plus-int -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Werror -Wtypedef-redefinition -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Werror -Wtautological-type-limit-compare -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog cc_has_warning_flag main
+lines: 141 179 2046 2050 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -Werror -Wpsabi -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+error: unknown warning option '-Wpsabi' [-Werror,-Wunknown-warning-option]
+
+funcs: do_compiler do_cc compile_object main
+lines: 141 173 2071 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -Werror -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2072 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -Werror -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_object main
+lines: 141 173 2093 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -Werror -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2122 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -Werror -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2139 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -Werror -fno-pie -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -no-pie
+clang: error: argument unused during compilation: '-nopie' [-Werror,-Wunused-command-line-argument]
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2156 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -Werror -fPIE -DPIE -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -pie
+clang: error: argument unused during compilation: '-pie' [-Werror,-Wunused-command-line-argument]
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2169 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -Wl,-z,relro -Wl,-z,now
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+ld: unknown option: -z
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_object main
+lines: 141 173 2270 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_object main
+lines: 141 173 2316 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -Werror -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2328 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:2:10: fatal error: 'linux/ip.h' file not found
+#include <linux/ip.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2340 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2432 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -llzo2
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2451 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lsnappy
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2470 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lbz2
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2488 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -llzfse
+config-temp/qemu-conf.c:1:10: fatal error: 'lzfse.h' file not found
+#include <lzfse.h>
+         ^~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2569 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lxenstore -lxenctrl
+config-temp/qemu-conf.c:1:10: fatal error: 'xenctrl.h' file not found
+#include <xenctrl.h>
+         ^~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2908 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -L/usr/local/Cellar/gnutls/3.6.14/lib -lgnutls
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2977 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -L/usr/local/Cellar/nettle/3.6/lib -lnettle
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 2992 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -I/usr/local/Cellar/nettle/3.6/include -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -L/usr/local/Cellar/nettle/3.6/lib -lnettle
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3092 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lpam
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3133 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lrdmacm -libverbs -libumad
+config-temp/qemu-conf.c:1:10: fatal error: 'rdma/rdma_cma.h' file not found
+#include <rdma/rdma_cma.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3231 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:2:10: fatal error: 'xfs/xfs.h' file not found
+#include <xfs/xfs.h>
+         ^~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3255 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lvdeplug
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3305 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lcap-ng
+config-temp/qemu-conf.c:1:10: fatal error: 'cap-ng.h' file not found
+#include <cap-ng.h>
+         ^~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3420 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lbrlapi
+config-temp/qemu-conf.c:1:10: fatal error: 'brlapi.h' file not found
+#include <brlapi.h>
+         ^~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3444 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lcurl
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3500 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -I/usr/local/Cellar/libffi/3.3/include -I/usr/local/Cellar/glib/2.64.5/include -I/usr/local/Cellar/glib/2.64.5/include/glib-2.0 -I/usr/local/Cellar/glib/2.64.5/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.44/include -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -L/usr/local/Cellar/glib/2.64.5/lib -L/usr/local/opt/gettext/lib -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lintl
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3531 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -I/usr/local/Cellar/glib/2.64.5/include -I/usr/local/Cellar/glib/2.64.5/include/glib-2.0 -I/usr/local/Cellar/glib/2.64.5/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.44/include -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -L/usr/local/Cellar/glib/2.64.5/lib -L/usr/local/opt/gettext/lib -lgthread-2.0 -lglib-2.0 -lintl
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3543 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -I/usr/local/Cellar/glib/2.64.5/include -I/usr/local/Cellar/glib/2.64.5/include/glib-2.0 -I/usr/local/Cellar/glib/2.64.5/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.44/include -Werror -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -L/usr/local/Cellar/glib/2.64.5/lib -L/usr/local/opt/gettext/lib -lgthread-2.0 -lglib-2.0 -lintl
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3563 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -I/usr/local/Cellar/glib/2.64.5/include -I/usr/local/Cellar/glib/2.64.5/include/glib-2.0 -I/usr/local/Cellar/glib/2.64.5/lib/glib-2.0/include -I/usr/local/opt/gettext/include -I/usr/local/Cellar/pcre/8.44/include -Werror -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -L/usr/local/Cellar/glib/2.64.5/lib -L/usr/local/opt/gettext/lib -lgthread-2.0 -lglib-2.0 -lintl
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3599 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3639 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:8:32: error: too many arguments to function call, expected 1, have 2
+    pthread_setname_np(thread, "QEMU");
+    ~~~~~~~~~~~~~~~~~~         ^~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/pthread.h:512:1: note: 'pthread_setname_np' declared here
+__API_AVAILABLE(macos(10.6), ios(3.2))
+^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h:502:162: note: expanded from macro '__API_AVAILABLE'
+    #define __API_AVAILABLE(...) __API_AVAILABLE_GET_MACRO(__VA_ARGS__,__API_AVAILABLE7, __API_AVAILABLE6, __API_AVAILABLE5, __API_AVAILABLE4, __API_AVAILABLE3, __API_AVAILABLE2, __API_AVAILABLE1, 0)(__VA_ARGS__)
+                                                                                                                                                                 ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3656 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3673 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lrbd -lrados
+config-temp/qemu-conf.c:2:10: fatal error: 'rbd/librbd.h' file not found
+#include <rbd/librbd.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3710 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -I/usr/local/Cellar/libssh/0.9.4/include -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -L/usr/local/Cellar/libssh/0.9.4/lib -lssh
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3725 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -laio
+config-temp/qemu-conf.c:1:10: fatal error: 'libaio.h' file not found
+#include <libaio.h>
+         ^~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3780 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:8:46: error: too few arguments to function call, expected 6, have 4
+int main(void) { getxattr(NULL, NULL, NULL, 0); setxattr(NULL, NULL, NULL, 0, 0); return 0; }
+                 ~~~~~~~~                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/xattr.h:61:1: note: 'getxattr' declared here
+ssize_t getxattr(const char *path, const char *name, void *value, size_t size, u_int32_t position, int options);
+^
+config-temp/qemu-conf.c:8:80: error: too few arguments to function call, expected 6, have 5
+int main(void) { getxattr(NULL, NULL, NULL, 0); setxattr(NULL, NULL, NULL, 0, 0); return 0; }
+                                                ~~~~~~~~                       ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/xattr.h:65:1: note: 'setxattr' declared here
+int setxattr(const char *path, const char *name, const void *value, size_t size, u_int32_t position, int options);
+^
+2 errors generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3783 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -DCONFIG_LIBATTR -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lattr
+config-temp/qemu-conf.c:4:10: fatal error: 'attr/xattr.h' file not found
+#include <attr/xattr.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3804 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3817 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:4:25: warning: implicit declaration of function 'preadv' is invalid in C99 [-Wimplicit-function-declaration]
+int main(void) { return preadv(0, 0, 0, 0); }
+                        ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_preadv", referenced from:
+      _main in qemu-conf-5d7a87.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3974 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/inotify.h' file not found
+#include <sys/inotify.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 3989 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/inotify.h' file not found
+#include <sys/inotify.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4005 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:7:12: warning: implicit declaration of function 'pipe2' is invalid in C99 [-Wimplicit-function-declaration]
+    return pipe2(pipefd, O_CLOEXEC);
+           ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_pipe2", referenced from:
+      _main in qemu-conf-bcbc87.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4021 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:6:5: warning: implicit declaration of function 'accept4' is invalid in C99 [-Wimplicit-function-declaration]
+    accept4(0, NULL, NULL, SOCK_CLOEXEC);
+    ^
+config-temp/qemu-conf.c:6:28: error: use of undeclared identifier 'SOCK_CLOEXEC'
+    accept4(0, NULL, NULL, SOCK_CLOEXEC);
+                           ^
+1 warning and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4040 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:8:11: warning: implicit declaration of function 'tee' is invalid in C99 [-Wimplicit-function-declaration]
+    len = tee(STDIN_FILENO, STDOUT_FILENO, INT_MAX, SPLICE_F_NONBLOCK);
+          ^
+config-temp/qemu-conf.c:8:53: error: use of undeclared identifier 'SPLICE_F_NONBLOCK'
+    len = tee(STDIN_FILENO, STDOUT_FILENO, INT_MAX, SPLICE_F_NONBLOCK);
+                                                    ^
+config-temp/qemu-conf.c:9:5: warning: implicit declaration of function 'splice' is invalid in C99 [-Wimplicit-function-declaration]
+    splice(STDIN_FILENO, NULL, fd, NULL, len, SPLICE_F_MOVE);
+    ^
+config-temp/qemu-conf.c:9:47: error: use of undeclared identifier 'SPLICE_F_MOVE'
+    splice(STDIN_FILENO, NULL, fd, NULL, len, SPLICE_F_MOVE);
+                                              ^
+2 warnings and 2 errors generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4053 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lnuma
+config-temp/qemu-conf.c:1:10: fatal error: 'numa.h' file not found
+#include <numa.h>
+         ^~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4084 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:4:25: warning: 'syscall' is deprecated: first deprecated in macOS 10.12 - syscall(2) is unsupported; please switch to a supported interface. For SYS_kdebug_trace use kdebug_signpost(). [-Wdeprecated-declarations]
+int main(void) { return syscall(SYS_signalfd, -1, NULL, _NSIG / 8); }
+                        ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h:742:6: note: 'syscall' has been explicitly marked deprecated here
+int      syscall(int, ...);
+         ^
+config-temp/qemu-conf.c:4:57: error: use of undeclared identifier '_NSIG'
+int main(void) { return syscall(SYS_signalfd, -1, NULL, _NSIG / 8); }
+                                                        ^
+config-temp/qemu-conf.c:4:33: error: use of undeclared identifier 'SYS_signalfd'
+int main(void) { return syscall(SYS_signalfd, -1, NULL, _NSIG / 8); }
+                                ^
+1 warning and 2 errors generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4095 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4109 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/eventfd.h' file not found
+#include <sys/eventfd.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4123 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:5:12: warning: implicit declaration of function 'memfd_create' is invalid in C99 [-Wimplicit-function-declaration]
+    return memfd_create("foo", MFD_ALLOW_SEALING);
+           ^
+config-temp/qemu-conf.c:5:32: error: use of undeclared identifier 'MFD_ALLOW_SEALING'
+    return memfd_create("foo", MFD_ALLOW_SEALING);
+                               ^
+1 warning and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4162 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:5:5: warning: implicit declaration of function 'fallocate' is invalid in C99 [-Wimplicit-function-declaration]
+    fallocate(0, 0, 0, 0);
+    ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_fallocate", referenced from:
+      _main in qemu-conf-6bee70.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4178 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:2:10: fatal error: 'linux/falloc.h' file not found
+#include <linux/falloc.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4194 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:2:10: fatal error: 'linux/falloc.h' file not found
+#include <linux/falloc.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4209 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:5:5: warning: implicit declaration of function 'posix_fallocate' is invalid in C99 [-Wimplicit-function-declaration]
+    posix_fallocate(0, 0, 0);
+    ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_posix_fallocate", referenced from:
+      _main in qemu-conf-ad017c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4224 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:5:5: warning: implicit declaration of function 'sync_file_range' is invalid in C99 [-Wimplicit-function-declaration]
+    sync_file_range(0, 0, 0, 0);
+    ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_sync_file_range", referenced from:
+      _main in qemu-conf-e8d910.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4241 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:2:10: fatal error: 'linux/fs.h' file not found
+#include <linux/fs.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4256 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:5:5: warning: implicit declaration of function 'dup3' is invalid in C99 [-Wimplicit-function-declaration]
+    dup3(0, 0, 0);
+    ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_dup3", referenced from:
+      _main in qemu-conf-ba0bf9.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4272 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:6:5: warning: implicit declaration of function 'ppoll' is invalid in C99 [-Wimplicit-function-declaration]
+    ppoll(&pfd, 1, 0, 0);
+    ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_ppoll", referenced from:
+      _main in qemu-conf-4e4ee2.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4287 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/prctl.h' file not found
+#include <sys/prctl.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4302 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/epoll.h' file not found
+#include <sys/epoll.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4325 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/epoll.h' file not found
+#include <sys/epoll.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4339 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/sendfile.h' file not found
+#include <sys/sendfile.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4353 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/timerfd.h' file not found
+#include <sys/timerfd.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4370 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:6:11: warning: implicit declaration of function 'setns' is invalid in C99 [-Wimplicit-function-declaration]
+    ret = setns(0, 0);
+          ^
+config-temp/qemu-conf.c:7:11: warning: implicit declaration of function 'unshare' is invalid in C99 [-Wimplicit-function-declaration]
+    ret = unshare(0);
+          ^
+2 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_setns", referenced from:
+      _main in qemu-conf-34e611.o
+  "_unshare", referenced from:
+      _main in qemu-conf-34e611.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4385 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:5:12: warning: implicit declaration of function 'clock_adjtime' is invalid in C99 [-Wimplicit-function-declaration]
+    return clock_adjtime(0, 0);
+           ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_clock_adjtime", referenced from:
+      _main in qemu-conf-073e2b.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4400 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:5:12: warning: implicit declaration of function 'syncfs' is invalid in C99 [-Wimplicit-function-declaration]
+    return syncfs(0);
+           ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_syncfs", referenced from:
+      _main in qemu-conf-96bb97.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4410 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'byteswap.h' file not found
+#include <byteswap.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4422 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/endian.h' file not found
+#include <sys/endian.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4456 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:4:3: warning: implicit declaration of function 'timer_create' is invalid in C99 [-Wimplicit-function-declaration]
+  timer_create(CLOCK_REALTIME, NULL, NULL);
+  ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_timer_create", referenced from:
+      _main in qemu-conf-b111e9.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4459 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -lrt
+config-temp/qemu-conf.c:4:3: warning: implicit declaration of function 'timer_create' is invalid in C99 [-Wimplicit-function-declaration]
+  timer_create(CLOCK_REALTIME, NULL, NULL);
+  ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4470 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4668 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:6:2: error: Not supported
+#error Not supported
+ ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4682 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4695 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4710 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4722 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4734 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:2:59: warning: implicit declaration of function 'sem_timedwait' is invalid in C99 [-Wimplicit-function-declaration]
+int main(void) { sem_t s; struct timespec t = {0}; return sem_timedwait(&s, &t); }
+                                                          ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_sem_timedwait", referenced from:
+      _main in qemu-conf-ea6e94.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4749 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:5:25: warning: implicit declaration of function 'strchrnul' is invalid in C99 [-Wimplicit-function-declaration]
+int main(void) { return strchrnul(haystack, 'x') != &haystack[6]; }
+                        ^
+config-temp/qemu-conf.c:5:50: warning: comparison between pointer and integer ('int' and 'char *') [-Wpointer-integer-compare]
+int main(void) { return strchrnul(haystack, 'x') != &haystack[6]; }
+                        ~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~~~
+2 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_strchrnul", referenced from:
+      _main in qemu-conf-38ccc1.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4762 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:3:25: error: no member named 'st_atim' in 'stat'
+int main(void) { return offsetof(struct stat, st_atim); }
+                        ^                     ~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.3/include/stddef.h:104:24: note: expanded from macro 'offsetof'
+#define offsetof(t, d) __builtin_offsetof(t, d)
+                       ^                     ~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4934 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -Werror -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4957 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:3:3: error: missing definition
+# error missing definition
+  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4971 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'linux/magic.h' file not found
+#include <linux/magic.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 4985 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'valgrind/valgrind.h' file not found
+#include <valgrind/valgrind.h>
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5000 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:3:5: error: use of undeclared identifier 'environ'
+    environ = 0;
+    ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5024 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_object main
+lines: 141 173 5046 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+config-temp/qemu-conf.c:1:13: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma GCC push_options
+            ^
+config-temp/qemu-conf.c:2:13: warning: unknown pragma ignored [-Wunknown-pragmas]
+#pragma GCC target("avx2")
+            ^
+config-temp/qemu-conf.c:7:12: error: always_inline function '_mm256_testz_si256' requires target feature 'avx', but would be inlined into function 'bar' that is compiled without support for 'avx'
+    return _mm256_testz_si256(x, x);
+           ^
+2 warnings and 1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5097 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5116 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:4:7: warning: implicit declaration of function '__atomic_load_16' is invalid in C99 [-Wimplicit-function-declaration]
+  y = __atomic_load_16(&x, 0);
+      ^
+config-temp/qemu-conf.c:5:3: warning: implicit declaration of function '__atomic_store_16' is invalid in C99 [-Wimplicit-function-declaration]
+  __atomic_store_16(&x, y, 0);
+  ^
+config-temp/qemu-conf.c:6:3: warning: implicit declaration of function '__atomic_compare_exchange_16' is invalid in C99 [-Wimplicit-function-declaration]
+  __atomic_compare_exchange_16(&x, &y, x, 0, 0, 0);
+  ^
+3 warnings generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "___atomic_compare_exchange_16", referenced from:
+      _main in qemu-conf-05f6bc.o
+  "___atomic_load_16", referenced from:
+      _main in qemu-conf-05f6bc.o
+  "___atomic_store_16", referenced from:
+      _main in qemu-conf-05f6bc.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5131 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5161 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5191 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -Wl,--dynamic-list=config-temp/qemu-conf.txt
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+ld: unknown option: --dynamic-list=config-temp/qemu-conf.txt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5205 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong -Wl,-exported_symbols_list,config-temp/qemu-conf.txt
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5231 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:2:35: error: aliases are not supported on darwin
+extern const int y __attribute__((alias("x")));
+                                  ^
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5245 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/auxv.h' file not found
+#include <sys/auxv.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_object main
+lines: 141 173 5273 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -Werror -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5301 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:3:3: warning: implicit declaration of function 'copy_file_range' is invalid in C99 [-Wimplicit-function-declaration]
+  copy_file_range(0, NULL, 0, NULL, 0, 0);
+  ^
+1 warning generated.
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+Undefined symbols for architecture x86_64:
+  "_copy_file_range", referenced from:
+      _main in qemu-conf-8e65eb.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5316 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'linux/fs.h' file not found
+#include <linux/fs.h>
+         ^~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5360 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'linux/rtnetlink.h' file not found
+#include <linux/rtnetlink.h>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5387 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:5:3: error: missing AF_VSOCK flag
+# error missing AF_VSOCK flag
+  ^
+config-temp/qemu-conf.c:7:10: fatal error: 'linux/vm_sockets.h' file not found
+#include <linux/vm_sockets.h>
+         ^~~~~~~~~~~~~~~~~~~~
+2 errors generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5405 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:4:10: fatal error: 'linux/if_alg.h' file not found
+#include <linux/if_alg.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5427 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+config-temp/qemu-conf.c:1:10: fatal error: 'sys/sysmacros.h' file not found
+#include <sys/sysmacros.h>
+         ^~~~~~~~~~~~~~~~~
+1 error generated.
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5441 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5456 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+ld: warning: directory not found for option '-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib'
+
+funcs: do_compiler do_cc compile_prog main
+lines: 141 179 5470 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib:-L/usr/local/opt/ncurses/lib:-L/usr/local/opt/gettext/lib:-L/usr/local/opt/libffi/lib -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+In file included from config-temp/qemu-conf.c:1:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/random.h:36:21: error: expected parameter declarator
+    __OSX_AVAILABLE(10.12) __IOS_AVAILABLE(10.0) __TVOS_AVAILABLE(10.0) __WATCHOS_AVAILABLE(3.0)
+                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/random.h:36:21: error: expected ')'
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/random.h:36:20: note: to match this '('
+    __OSX_AVAILABLE(10.12) __IOS_AVAILABLE(10.0) __TVOS_AVAILABLE(10.0) __WATCHOS_AVAILABLE(3.0)
+                   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/random.h:36:28: error: expected function body after function declarator
+    __OSX_AVAILABLE(10.12) __IOS_AVAILABLE(10.0) __TVOS_AVAILABLE(10.0) __WATCHOS_AVAILABLE(3.0)
+                           ^
+config-temp/qemu-conf.c:3:12: warning: implicit declaration of function 'getrandom' is invalid in C99 [-Wimplicit-function-declaration]
+    return getrandom(0, 0, GRND_NONBLOCK);
+           ^
+config-temp/qemu-conf.c:3:28: error: use of undeclared identifier 'GRND_NONBLOCK'
+    return getrandom(0, 0, GRND_NONBLOCK);
+                           ^
+1 warning and 4 errors generated.
+
+funcs: do_compiler do_cc compile_object main
+lines: 141 173 5858 0
+cc -std=gnu99 -Wall -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -c -o config-temp/qemu-conf.o config-temp/qemu-conf.c
+
+funcs: do_compiler do_cxx main
+lines: 145 5869 0
+c++ -std=gnu++11 -Wall -D__STDC_LIMIT_MACROS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -m64 -mcx16 -DOS_OBJECT_USE_OBJC=0 -arch x86_64 -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wundef -Wwrite-strings -fno-strict-aliasing -fno-common -fwrapv -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wendif-labels -Wexpansion-to-defined -Wno-initializer-overrides -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-string-plus-int -Wno-typedef-redefinition -Wno-tautological-type-limit-compare -fstack-protector-strong -o config-temp/qemu-conf.exe config-temp/qemu-conf.cxx config-temp/qemu-conf.o -m64 -framework CoreFoundation -framework IOKit -arch x86_64 -fstack-protector-strong
+
+funcs: do_compiler main
+lines: 218 0
+cc -m64 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c -static
+ld: library not found for -lcrt0.o
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+funcs: do_compiler main
+lines: 220 0
+cc -m64 -o config-temp/qemu-conf.exe config-temp/qemu-conf.c
